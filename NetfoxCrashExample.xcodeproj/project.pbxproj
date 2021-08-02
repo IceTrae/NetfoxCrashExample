@@ -3,27 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F3EDC7B09ACF98B08DA7BD0 /* Pods_NetfoxCrashExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0C03F8644AD6FE0E06CE0C /* Pods_NetfoxCrashExample.framework */; };
 		C1A28E3026B8665C002306AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A28E2F26B8665C002306AA /* AppDelegate.swift */; };
-		C1A28E3226B8665C002306AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A28E3126B8665C002306AA /* SceneDelegate.swift */; };
 		C1A28E3426B8665C002306AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A28E3326B8665C002306AA /* ViewController.swift */; };
 		C1A28E3726B8665C002306AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A28E3526B8665C002306AA /* Main.storyboard */; };
-		C1A28E3926B8665D002306AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A28E3826B8665D002306AA /* Assets.xcassets */; };
 		C1A28E3C26B8665D002306AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A28E3A26B8665D002306AA /* LaunchScreen.storyboard */; };
+		C1A28E4426B86B62002306AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A28E4326B86B62002306AA /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AED5E2B5EBFDDCB416AAA13 /* Pods-NetfoxCrashExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetfoxCrashExample.release.xcconfig"; path = "Target Support Files/Pods-NetfoxCrashExample/Pods-NetfoxCrashExample.release.xcconfig"; sourceTree = "<group>"; };
+		51B6FFB1D684F1CE9E6D3766 /* Pods-NetfoxCrashExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetfoxCrashExample.debug.xcconfig"; path = "Target Support Files/Pods-NetfoxCrashExample/Pods-NetfoxCrashExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C1A28E2C26B8665C002306AA /* NetfoxCrashExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetfoxCrashExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A28E2F26B8665C002306AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1A28E3126B8665C002306AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C1A28E3326B8665C002306AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1A28E3626B8665C002306AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1A28E3826B8665D002306AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1A28E3B26B8665D002306AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1A28E3D26B8665D002306AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A28E4326B86B62002306AA /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE0C03F8644AD6FE0E06CE0C /* Pods_NetfoxCrashExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetfoxCrashExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3EDC7B09ACF98B08DA7BD0 /* Pods_NetfoxCrashExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1213110D9D279E66552A0EC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE0C03F8644AD6FE0E06CE0C /* Pods_NetfoxCrashExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66F6FBC6652F10F8B6B34C07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51B6FFB1D684F1CE9E6D3766 /* Pods-NetfoxCrashExample.debug.xcconfig */,
+				0AED5E2B5EBFDDCB416AAA13 /* Pods-NetfoxCrashExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C1A28E2326B8665C002306AA = {
 			isa = PBXGroup;
 			children = (
 				C1A28E2E26B8665C002306AA /* NetfoxCrashExample */,
 				C1A28E2D26B8665C002306AA /* Products */,
+				66F6FBC6652F10F8B6B34C07 /* Pods */,
+				1213110D9D279E66552A0EC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +78,10 @@
 		C1A28E2E26B8665C002306AA /* NetfoxCrashExample */ = {
 			isa = PBXGroup;
 			children = (
+				C1A28E4326B86B62002306AA /* SceneDelegate.swift */,
 				C1A28E2F26B8665C002306AA /* AppDelegate.swift */,
-				C1A28E3126B8665C002306AA /* SceneDelegate.swift */,
 				C1A28E3326B8665C002306AA /* ViewController.swift */,
 				C1A28E3526B8665C002306AA /* Main.storyboard */,
-				C1A28E3826B8665D002306AA /* Assets.xcassets */,
 				C1A28E3A26B8665D002306AA /* LaunchScreen.storyboard */,
 				C1A28E3D26B8665D002306AA /* Info.plist */,
 			);
@@ -74,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1A28E4026B8665D002306AA /* Build configuration list for PBXNativeTarget "NetfoxCrashExample" */;
 			buildPhases = (
+				08DC5E3AA2FA745C9968925A /* [CP] Check Pods Manifest.lock */,
 				C1A28E2826B8665C002306AA /* Sources */,
 				C1A28E2926B8665C002306AA /* Frameworks */,
 				C1A28E2A26B8665C002306AA /* Resources */,
+				4394B8D2E7F23E28D21D3199 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +148,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A28E3C26B8665D002306AA /* LaunchScreen.storyboard in Resources */,
-				C1A28E3926B8665D002306AA /* Assets.xcassets in Resources */,
 				C1A28E3726B8665C002306AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08DC5E3AA2FA745C9968925A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetfoxCrashExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4394B8D2E7F23E28D21D3199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetfoxCrashExample/Pods-NetfoxCrashExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetfoxCrashExample/Pods-NetfoxCrashExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetfoxCrashExample/Pods-NetfoxCrashExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1A28E2826B8665C002306AA /* Sources */ = {
@@ -139,7 +203,7 @@
 			files = (
 				C1A28E3426B8665C002306AA /* ViewController.swift in Sources */,
 				C1A28E3026B8665C002306AA /* AppDelegate.swift in Sources */,
-				C1A28E3226B8665C002306AA /* SceneDelegate.swift in Sources */,
+				C1A28E4426B86B62002306AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +347,7 @@
 		};
 		C1A28E4126B8665D002306AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B6FFB1D684F1CE9E6D3766 /* Pods-NetfoxCrashExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +367,7 @@
 		};
 		C1A28E4226B8665D002306AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AED5E2B5EBFDDCB416AAA13 /* Pods-NetfoxCrashExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
